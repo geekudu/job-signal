@@ -9,7 +9,7 @@ import os
 
 
 # Initialize Scrapfly client with your API key
-scrapfly_api_key =  os.getenv('SCRAPFLY')
+SCRAPFLY_KEY =  os.getenv('SCRAPFLY')
 scrapfly = ScrapflyClient(key=SCRAPFLY_KEY)
 
 # Base config for Scrapfly
